@@ -1,4 +1,4 @@
-sprockets.import_asset 'modernizr'
+# sprockets.import_asset 'modernizr'
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
@@ -25,13 +25,13 @@ end
 #   deploy.flags = '-avzp --chmod=+r'
 # end
 
-activate :email do |email|
-  email.user = 'postmaster@mg.marsbased.com'
-  email.password = 'smtp_pass'
-  email.emails_path= 'emails'
-  email.to_email = 'your.email@whatever.com'
-  email.from_email = 'mailer@mg.marsbased.com'
-  email.port = 587
-  email.domain = 'mg.marsbased.com'
-  email.address = 'smtp.mailgun.org'
-end
+# activate :email do |email|
+#   email.user = 'postmaster@mg.marsbased.com'
+#   email.password = 'smtp_pass'
+#   email.emails_path= 'emails'
+#   email.to_email = 'your.email@whatever.com'
+#   email.from_email = 'mailer@mg.marsbased.com'
+#   email.port = 587
+#   email.domain = 'mg.marsbased.com'
+#   email.address = 'smtp.mailgun.org'
+# end

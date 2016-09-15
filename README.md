@@ -3,16 +3,10 @@ Middleman Template for starting new projects.
 
 ## Installation of the Marsman Template
 
-To use Marsman as a template, clone the Git repository into ~/.middleman, like so:
+Then use the Marsman template, init the project with the following command:
 
 ```
-git clone https://github.com/MarsBased/marsman-template.git ~/.middleman/marsman
-```
-
-Then use the new template argument for the middleman init command:
-
-```
-middleman init new_project --template=marsman
+middleman init new_project -T marsbased/marsman-template
 ```
 
 ## Project README
